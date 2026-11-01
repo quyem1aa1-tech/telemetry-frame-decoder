@@ -1,0 +1,15 @@
+---
+Checks: >
+  -*,
+  bugprone-dangling-handle,
+  bugprone-use-after-move,
+  clang-analyzer-core.NullDereference,
+  clang-analyzer-core.uninitialized.Branch,
+  clang-analyzer-cplusplus.NewDelete,
+  clang-analyzer-cplusplus.NewDeleteLeaks,
+  cppcoreguidelines-owning-memory,
+  modernize-use-nullptr
+
+WarningsAsErrors: ''
+HeaderFilterRegex: 'include/.*'
+...

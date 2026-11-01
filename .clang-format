@@ -1,0 +1,13 @@
+BasedOnStyle: Google
+
+IndentWidth: 4
+
+BreakBeforeBraces: Allman
+
+SpaceBeforeParens: ControlStatements
+
+MaxEmptyLinesToKeep: 2            #
+KeepEmptyLinesAtTheStartOfBlocks: false 
+SeparateDefinitionBlocks: Always  
+
+ColumnLimit: 100

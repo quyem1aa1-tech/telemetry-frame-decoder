@@ -1,0 +1,49 @@
+# ==============================================================================
+# C++ Build Artifacts & CMake
+# ==============================================================================
+# Ignore all build directories (GCC and Clang)
+build/
+build-*/
+bin/
+lib/
+out/
+
+# Ignore CMake generated files (just in case of accidental in-source build)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# ==============================================================================
+# Editor & IDE Caches (VS Code, Clangd)
+# ==============================================================================
+# Ignore Clangd background index cache
+.cache/
+.clangd/
+
+# Ignore VS Code local workspace settings (optional, but recommended)
+.vscode/
+
+# ==============================================================================
+# Python Caches (For your testing scripts)
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================================================================
+# OS Generated Files
+# ==============================================================================
+.DS_Store
+Thumbs.db
+
+# ==============================================================================
+# Project Specific (Named Pipes / Data logs)
+# ==============================================================================
+*.fifo
+*.log
+tests/tmp/
+
+
+

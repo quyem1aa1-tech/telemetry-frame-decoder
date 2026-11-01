@@ -1,0 +1,13 @@
+format:
+  tab_size: 4
+  line_width: 80
+  use_tabchars: false
+
+  command_case: lower           
+  keyword_case: upper           
+
+  dangle_parens: true
+
+markup:
+  bullet_char: "*"
+  enable_markup: true
